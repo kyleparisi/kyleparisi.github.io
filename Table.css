@@ -1,0 +1,41 @@
+th.sticky-header {
+    position: sticky;
+    top: -1px;
+    background-color: white;
+}
+
+.shadow-light2 {
+    box-shadow: 0 1px 1px rgba(50, 50, 93, 0.11);
+}
+
+.striped--brand-gray:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.striped--brand-gray:nth-child(odd) {
+    background-color: white;
+}
+
+.hover-row:hover {
+    background-color: #fffceb;
+}
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.animated-background {
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 800px 104px;
+}
